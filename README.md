@@ -1,4 +1,4 @@
-cinchbot
+rocketbot
 ========
 
-A bot for our Slack team chat built using [Cinch](https://github.com/cinchrb/cinch).
+A bot for our Slack team chat based off of @mcmahoniel's [Slackey](https://github.com/mcmahoniel/slackey).
