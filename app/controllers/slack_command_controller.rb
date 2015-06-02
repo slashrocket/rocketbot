@@ -3,6 +3,7 @@ class SlackCommandController < ApplicationController
   before_action :validate_token
 
   def create
+    # byebug
     if params['command'].present?
       render text: handler.response.to_s
     else

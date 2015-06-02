@@ -6,13 +6,13 @@ module SlackResponder
     def initialize(params)
       @params = params
       @user_name = params['user_name']
-      @timestamp = '?' + params['timestamp']
 
       # Slash commands don't include the trigger word in @input
       if slash_command?
         @input = params['text'].split(' ')
       else
         @input = params['text'].gsub(params['trigger_word'], '').split(' ')
+        @timestamp = '?' + params['timestamp']
       end
 
       @command = @input[0]
@@ -29,7 +29,8 @@ module SlackResponder
     private
 
     def tour
-      return 'Welcome to slashrocket!
+      return '
+      Welcome to slashrocket!
       Here\'s a quick channel breakdown:
       #general - everything tech/programming related
       #debug - you need help with your code, this is the place to ask
@@ -40,24 +41,9 @@ module SlackResponder
       Message @seanosaur, @4xposed, @mike, @paulstraw, or @mcmahoniel if you need to get in touch with an admin.'
     end
 
-    def weather
-      return 'Please enter a valid city.' if @arguments.blank?
-      options = { units: 'imperial', APPID: ENV['openweathermap_key'] }
-      begin
-        weather = OpenWeather::Current.city(@arguments, options)
-        country = weather['sys']['country']
-        return 'Please enter a valid city.' if weather['cod'] == '404'
-        location = weather['name'].empty? ? country : weather['name']
-        "It's currently #{weather['main']['temp'].round}\u00b0F in #{location}."
-      rescue
-        'Something went wrong, please wait a moment and try again.'
-      end
-    end
-
     def help
       '*Available Commands*:
-      *tour*
-      *weather* _<required: city name or ZIP code>_'
+      *tour*'
     end
 
     # Check if this is a slash command or a mention.
