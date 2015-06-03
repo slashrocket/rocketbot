@@ -1,6 +1,5 @@
 # Receive Slack commands and validate correct tokens.
 class SlackCommandController < ApplicationController
-  before_action :validate_token
 
   def create
     # byebug
@@ -19,7 +18,6 @@ class SlackCommandController < ApplicationController
 
   def validate_token
     tokens = []
-    tokens.push(ENV['slack_outgoing_webhook_token'])
     tokens.push(ENV['slack_slash_command_token'])
 
     render nothing: true,
