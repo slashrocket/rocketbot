@@ -21,9 +21,7 @@ module SlackResponder
 
     # Call the approprate method based on the input from Slack.
     def response
-      return tour if @command == 'tour'
-      return weather if @command == 'weather'
-      help
+      tour
     end
 
     private
@@ -31,18 +29,15 @@ module SlackResponder
     def tour
       return 'Welcome to slashrocket!
       Here\'s a quick channel breakdown:
-      #general - everything tech/programming related
-      #debug - you need help with your code, this is the place to ask
-      #team_projects - help us build something or start a project of your own. Our GitHub repo is at github.com/slashrocket
-      #resources - relevant links, videos, etc that could help the learning process
-      #hackathon - discuss a past, current, or upcoming hackathon
-      #meta - all things slashrocket. Whether it\'s good, bad, or anything in between, the admin team is listening.
-      Message @seanosaur, @4xposed, @mike, @paulstraw, or @mcmahoniel if you need to get in touch with an admin.'
-    end
-
-    def help
-      '*Available Commands*:
-      *tour*'
+      #general - everything tech/programming related :computer:
+      #random - for anything that\'s not :simple_smile:
+      #debug - you need help with your code, this is the place to ask :bug:
+      #team_projects - help us build something or start a project of your own. Our GitHub repo is at github.com/slashrocket :white_check_mark:
+      #resources - relevant links, videos, etc that could help the learning process :book:
+      #hackathon - discuss a past, current, or upcoming hackathon :rocket:
+      #meta - all things slashrocket. Whether it\'s good, bad, or anything in between, the admin team is listening. :cop:
+      #gaming - fun chat about all platforms, all games :video_game:
+      Message @seanosaur, @4xposed, @mike, @paulstraw, or @mcmahoniel if you need to get in touch with an admin. :ghost:'
     end
 
     # Check if this is a slash command or a mention.
