@@ -1,8 +1,6 @@
 # Receive Slack commands and validate correct tokens.
 class SlackCommandController < ApplicationController
-
   def create
-    # byebug
     if params['command'].present?
       render text: handler.response.to_s
     else
@@ -14,13 +12,5 @@ class SlackCommandController < ApplicationController
 
   def handler
     @handler ||= SlackResponder::CommandHandler.new(params)
-  end
-
-  def validate_token
-    tokens = []
-    tokens.push(ENV['slack_slash_command_token'])
-
-    render nothing: true,
-           status: :forbidden unless tokens.include?(params['token'])
   end
 end
