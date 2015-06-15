@@ -1,5 +1,3 @@
-require 'open_weather'
-
 module SlackResponder
   # Reponds to Slack slash command and mentions.
   class CommandHandler
