@@ -4,6 +4,7 @@ ruby '2.2.1'
 
 gem 'rails', '4.2.1'
 gem 'rails-api'
+gem 'puma'
 
 group :development do
   gem 'spring'
