@@ -25,7 +25,7 @@ module SlackResponder
     private
 
     def tour
-      return 'Welcome to slashrocket!
+      'Welcome to slashrocket!
       Here\'s a quick channel breakdown:
       *#general* - everything tech/programming related :computer:
       *#random* - for anything that\'s not :simple_smile:
