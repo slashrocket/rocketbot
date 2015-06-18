@@ -7,7 +7,7 @@ end
 client = Slack.realtime
 
 client.on :team_join do |data|
-  welcome = "Welcome to slashrocket, @#{data['user']['name']}! Type `/rocket` for a quick tour of our channels. :simple_smile:"
+  welcome = "Welcome to slashrocket, <@#{data['user']['id']}>! Type `/rocket` for a quick tour of our channels. :simple_smile:"
   options = { channel: '#general', text: welcome, as_user: true }
   Slack.chat_postMessage(options)
 end
