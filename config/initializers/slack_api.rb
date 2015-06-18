@@ -12,4 +12,6 @@ client.on :team_join do |data|
   Slack.chat_postMessage(options)
 end
 
-client.start
+Thread.new do
+  client.start
+end
