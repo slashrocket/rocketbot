@@ -30,6 +30,7 @@ module SlackResponder
       *#general* - everything tech/programming related :computer:
       *#random* - for anything that\'s not :simple_smile:
       *#debug* - you need help with your code, this is the place to ask :bug:
+      *#newbies* - feel free to take it slow, we\'re happy to help :smile_cat:
       *#team_projects* - help us build something or start a project of your own. Our GitHub repo is at github.com/slashrocket :white_check_mark:
       *#resources* - relevant links, videos, etc that could help the learning process :book:
       *#hackathon* - discuss a past, current, or upcoming hackathon :rocket:
