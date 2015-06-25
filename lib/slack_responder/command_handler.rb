@@ -25,8 +25,8 @@ module SlackResponder
     private
 
     def tour
-      'Welcome to slashrocket!
-      Here\'s a quick channel breakdown:
+      '*Welcome to **slashrocket**!*
+      *Here\'s a quick channel breakdown:*
       *#general* - everything tech/programming related :computer:
       *#random* - for anything that\'s not :simple_smile:
       *#debug* - you need help with your code, this is the place to ask :bug:
@@ -36,6 +36,7 @@ module SlackResponder
       *#hackathon* - discuss a past, current, or upcoming hackathon :rocket:
       *#meta* - all things slashrocket. Whether it\'s good, bad, or anything in between, the admin team is listening. :cop:
       *#gaming* - fun chat about all platforms, all games :video_game:
+      We also have a <https://community.slashrocket.io|great forum> open to anyone on slashrocket! :book:
       *Message @seanosaur, @4xposed, @mike, @paulstraw, or @mcmahoniel if you need to get in touch with an admin.* :ghost:'
     end
 
