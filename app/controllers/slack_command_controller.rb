@@ -1,7 +1,7 @@
 # Receive Slack commands and validate correct tokens.
 class SlackCommandController < ApplicationController
   def create
-    render json: { text: handler.response.to_s }
+    render text: handler.response.to_s
   end
 
   private
