@@ -1,23 +1,6 @@
 module SlackResponder
   # Reponds to Slack slash command and mentions.
   class CommandHandler
-    def initialize(params)
-      @params = params
-      @user_name = params['user_name']
-
-      # Slash commands don't include the trigger word in @input
-      if slash_command?
-        @input = params['text'].split(' ')
-      else
-        @input = params['text'].gsub(params['trigger_word'], '').split(' ')
-        @timestamp = '?' + params['timestamp']
-      end
-
-      @command = @input[0]
-      @arguments = @input.drop(1).join(' ')
-    end
-
-    # Call the approprate method based on the input from Slack.
     def response
       tour
     end
@@ -41,11 +24,6 @@ module SlackResponder
       We also have a <https://community.slashrocket.io|great forum> open to anyone on slashrocket! :book:
 
       *Message @seanosaur, @4xposed, @mike, @paulstraw, or @mcmahoniel if you need to get in touch with an admin* :ghost:'
-    end
-
-    # Check if this is a slash command or a mention.
-    def slash_command?
-      @params['command'].present?
     end
   end
 end
