@@ -9,6 +9,7 @@ module SlackResponder
 
     def tour
       '*Welcome to slashrocket!*
+
       *Here\'s a quick channel breakdown:*
 
       *#general* - everything tech/programming related :computer:
