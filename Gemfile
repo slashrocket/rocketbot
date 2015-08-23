@@ -7,10 +7,6 @@ gem 'rails-api'
 gem 'puma'
 gem 'figaro'
 
-# Downgrade these gems to suport slack-api
-gem 'websocket-driver', '0.5.4'
-gem 'faraday_middleware', '0.9.1'
-
 group :development do
   gem 'spring'
   gem 'better_errors'
@@ -22,4 +18,4 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'slack-api'
+gem 'slack-ruby-client'
