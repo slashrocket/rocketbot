@@ -4,7 +4,7 @@ Slack.configure do |config|
   config.token = ENV['slack_api_token']
 end
 
-client = Slack.realtime
+client = Slack::RealTime::Client.new
 
 client.on :team_join do |data|
   puts "New User, #{data['user']['name']}, Joined"
