@@ -15,5 +15,5 @@ client.on :team_join do |data|
 end
 
 Thread.new do
-  client.start
+  client.start!
 end
