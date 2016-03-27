@@ -6,6 +6,8 @@ gem 'rails', '4.2.6'
 gem 'rails-api'
 gem 'puma'
 gem 'figaro'
+gem 'eventmachine'
+gem 'faye-websocket'
 
 group :development do
   gem 'spring'

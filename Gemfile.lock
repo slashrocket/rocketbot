@@ -49,10 +49,14 @@ GEM
     concurrent-ruby (1.0.1)
     debug_inspector (0.0.2)
     erubis (2.7.0)
+    eventmachine (1.2.0.1)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
+    faye-websocket (0.10.3)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
     figaro (1.1.1)
       thor (~> 0.14)
     gli (2.13.4)
@@ -141,6 +145,8 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   byebug
+  eventmachine
+  faye-websocket
   figaro
   puma
   rails (= 4.2.6)
