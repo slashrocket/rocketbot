@@ -17,6 +17,7 @@ module SlackResponder
       *#debug* - if you need help with your code, this is the place to ask :bug:
       *#newbies* - feel free to take it slow, we\'re happy to help :smile_cat:
       *#team_projects* - help us build something or start a project of your own - check out <https://github.com/slashrocket|our GitHub> :white_check_mark:
+      *#devops* - discuss the arcane world of devops :fireworks:
       *#resources* - relevant links, videos, etc that could help the learning process :book:
       *#hackathon* - discuss a past, current, or upcoming hackathon :rocket:
       *#meta* - all things slashrocket. Whether it\'s good, bad, or anything in between, the admin team is listening :cop:
