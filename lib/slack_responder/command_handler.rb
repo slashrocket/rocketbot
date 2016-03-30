@@ -42,7 +42,7 @@ module SlackResponder
 
       We also have a <https://community.slashrocket.io|great forum> open to anyone on slashrocket! :book:
 
-      *Message @seanosaur, @4xposed, @mike, @mcmahoniel if you need to get in touch with an admin* :ghost:'
+      *Message @seanosaur, @4xposed, @mike, or @mcmahoniel if you need to get in touch with an admin* :ghost:'
     end
   end
 end
