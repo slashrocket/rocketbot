@@ -14,7 +14,7 @@ module SlackResponder
 
       *#announcements* - check here for annoucements from the :slashrocket: team!
       *#slashrocket-general* - on-topic tech/programming discussion :computer:
-      *#meta* - all things slashrocket. Whether it\'s good, bad, or anything in between, the admin team is listening :cop:
+      *#meta* - questions/comments/concerns about :slashrocket:, we\'re all ears! :ear:
       *#random* - for anything that\'s random :simple_smile:
       *#intros* - say hello or introduce yourself! :wave:
       *#debug* - if you need help with your code, this is the place to ask :bug:
@@ -26,7 +26,7 @@ module SlackResponder
       *#resources* - relevant links, videos, etc that could help the learning process :book:
       *#jobs* - find or post a job! :jobs:
       *#hackathon* - discuss a past, current, or upcoming hackathon :rocket:
-      *#coding-challenges - participate in fun programming exercises :computer:
+      *#coding-challenges* - participate in fun programming exercises :computer:
       *#hangouts* - check out our weekly-ish gettogethers! :wave:
       *#gaming* - fun chat about all platforms, all games :video_game:
       *#book-club* - book discussion! :book:
