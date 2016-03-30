@@ -38,7 +38,7 @@ module SlackResponder
       *#sports* - sports talk! :basketball:
       *#portlandia* - put a bird on it! :bird:
       *#bae-area* - talk SV! :computer:
-      *#soflo* fun in the sun! :sunny:
+      *#soflo* - fun in the sun! :sunny:
 
       We also have a <https://community.slashrocket.io|great forum> open to anyone on slashrocket! :book:
 
