@@ -19,7 +19,7 @@ module SlackResponder
       *#intros* - say hello or introduce yourself! :wave:
       *#debug* - if you need help with your code, this is the place to ask :bug:
       *#newbies* - feel free to take it slow, we\'re happy to help :smile_cat:
-      *#team_projects* - help us build something or start a project of your own - check out <https://github.com/slashrocket|our GitHub> :white_check_mark:
+      *#team-projects* - help us build something or start a project of your own - check out <https://github.com/slashrocket|our GitHub> :white_check_mark:
       *#devops* - discuss the arcane world of devops :fireworks:
       *#design* - the finer things in dev :wine_glass:
       *#security* - Hack the Planet! :computer:
