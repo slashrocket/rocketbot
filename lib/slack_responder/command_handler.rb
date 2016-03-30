@@ -13,9 +13,9 @@ module SlackResponder
       *Here\'s a quick channel breakdown:*
 
       *#announcements* - check here for annoucements from the :slashrocket: team!
-      *#slashrocket-general* - everything tech/programming related :computer:
+      *#slashrocket-general* - on-topic tech/programming discussion :computer:
       *#meta* - all things slashrocket. Whether it\'s good, bad, or anything in between, the admin team is listening :cop:
-      *#random* - for anything that\'s not :simple_smile:
+      *#random* - for anything that\'s random :simple_smile:
       *#intros* - say hello or introduce yourself! :wave:
       *#debug* - if you need help with your code, this is the place to ask :bug:
       *#newbies* - feel free to take it slow, we\'re happy to help :smile_cat:
