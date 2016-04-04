@@ -8,7 +8,12 @@ module SlackResponder
     private
 
     def tour
-      '*Welcome to slashrocket!*
+      '*Welcome to slashrocket!* :slashrocket:
+
+      *Please check out our <https://slashrocket.io/CodeOfConduct/|Code of Conduct>*, and feel free to send a message to
+      @seanosaur, @mike, or @mcmahoniel if you need to get in touch with an admin. :ghost:
+
+      *We also have a <https://community.slashrocket.io|great forum> open to the community!* :book:
 
       *Here\'s a quick channel breakdown:*
 
@@ -23,7 +28,7 @@ module SlackResponder
       *#devops* - discuss the arcane world of devops :fireworks:
       *#design* - the finer things in dev :wine_glass:
       *#security* - Hack the Planet! :computer:
-      *#iot* - let\'s talk hardware! :microscope: 
+      *#iot* - let\'s talk hardware! :microscope:
       *#resources* - relevant links, videos, etc that could help the learning process :book:
       *#jobs* - find or post a job! :jobs:
       *#hackathon* - discuss a past, current, or upcoming hackathon :rocket:
@@ -39,11 +44,7 @@ module SlackResponder
       *#sports* - sports talk! :basketball:
       *#portlandia* - put a bird on it! :bird:
       *#bae-area* - talk SV! :computer:
-      *#soflo* - fun in the sun! :sunny:
-
-      We also have a <https://community.slashrocket.io|great forum> open to anyone on slashrocket! :book:
-
-      *Message @seanosaur, @4xposed, @mike, or @mcmahoniel if you need to get in touch with an admin* :ghost:'
+      *#soflo* - fun in the sun! :sunny:'
     end
   end
 end
