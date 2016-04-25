@@ -42,6 +42,7 @@ module SlackResponder
       *<#C0HJG0AHF|television>* - talk about your favorite shows :tv:
       *<#C0L3P7M3K|politics>* - surprisingly civil discussion :statue_of_liberty:
       *<#C0AELBMM1|sports>* - sports talk! :basketball:
+      *<#C13FLLEUX|swole>* - too fit to quit :muscle:
       *<#C0A4A8T6C|portlandia>* - put a bird on it! :bird:
       *<#C0E8JAU0L|bae-area>* - talk SV! :computer:
       *<#C0FTSKV9V|soflo>* - fun in the sun! :sunny:'
