@@ -27,6 +27,7 @@ module SlackResponder
       *<#C03C8MFGJ|team-projects>* - help us build something or start a project of your own - check out <https://github.com/slashrocket|our GitHub> :white_check_mark:
       *<#C0611AGA3|devops>* - discuss the arcane world of devops :fireworks:
       *<#C0AKU2JUS|design>* - the finer things in dev :wine_glass:
+      *<#C18QPALU8|ladies>* - for women and friends of women :woman-woman-girl:
       *<#C0NSMTSQ3|security>* - Hack the Planet! :computer:
       *<#C0WDKCY95|iot>* - let\'s talk hardware! :microscope:
       *<#C04JD5BMV|resources>* - relevant links, videos, etc that could help the learning process :book:
