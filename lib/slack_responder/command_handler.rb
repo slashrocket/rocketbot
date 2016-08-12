@@ -11,7 +11,7 @@ module SlackResponder
       '*Welcome to slashrocket!* :slashrocket:
 
       *Please check out our <https://slashrocket.io/CodeOfConduct/|Code of Conduct>*, and feel free to send a message to
-      <@U0383B6CP|seanosaur>, <@U0389HVCQ|mike>, <@U03PACC1D|4xposed>, or <@U047F4XQX|mcmahoniel> if you need to get in touch with an admin. :ghost:
+      <@U0383B6CP|seanosaur>, <@U0389HVCQ|mike>, <@U03PACC1D|4xposed>, <@U045FUW1G|paulstraw>, or <@U047F4XQX|mcmahoniel> if you need to get in touch with an admin. :ghost:
 
       *We also have a <https://community.slashrocket.io|great forum> open to the community!* :book:
 
