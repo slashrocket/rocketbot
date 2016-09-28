@@ -29,6 +29,7 @@ module SlackResponder
       *<#C0AKU2JUS|design>* - the finer things in dev :wine_glass:
       *<#C18QPALU8|ladies>* - for women and friends of women :woman-woman-girl:
       *<#C0NSMTSQ3|security>* - Hack the Planet! :computer:
+      *<#C26L5QL7N|mathletes>* - machine learning, big data, and more :chart_with_upwards_trend:
       *<#C0WDKCY95|iot>* - let\'s talk hardware! :microscope:
       *<#C04JD5BMV|resources>* - relevant links, videos, etc that could help the learning process :book:
       *<#C08LLBP6Z|jobs>* - find or post a job! :jobs:
@@ -38,6 +39,7 @@ module SlackResponder
       *<#C06C0MSKV|gaming>* - fun chat about all platforms, all games :video_game:
       *<#C0F3KN55G|book-club>* - book discussion! :book:
       *<#C0FJ45737|moody-foodies>* - food discussion! :taco:
+      *<#C2H7U45NE|suntory-time>* - adult beverage discussion :cocktail:
       *<#C0BAD2TTM|music>* - talk music! :trumpet:
       *<#C0HJCN8HK|movies>* - Oscar gold! :man_in_business_suit_levitating:
       *<#C0HJG0AHF|television>* - talk about your favorite shows :tv:
