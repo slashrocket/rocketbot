@@ -1,9 +1,9 @@
 rocketbot
 ========
 
-A bot for our Slack team chat based off of [Slackey](https://github.com/mcmahoniel/slackey).
+A bot for our Slack team based off of [Slackey](https://github.com/mcmahoniel/slackey).
 
-rocketbot will watch for new users to join and automatically greet them. Additionally, you can set up a slash command to get back general information.
+rocketbot lets users easily get information about the available Slack channels.
 
 ### Installation:
 - Fork the project!
