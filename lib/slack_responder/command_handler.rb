@@ -11,9 +11,7 @@ module SlackResponder
       '*Welcome to slashrocket!* :slashrocket:
 
       *Please check out our <https://slashrocket.io/CodeOfConduct/|Code of Conduct>*, and feel free to send a message to
-      <@U0383B6CP|seanosaur>, <@U0389HVCQ|mike>, <@U045FUW1G|paulstraw>, or <@U047F4XQX|mcmahoniel> if you need to get in touch with an admin. :ghost:
-
-      *We also have a <https://community.slashrocket.io|great forum> open to the community!* :book:
+      <@U0383B6CP|seanosaur>, <@U045FUW1G|paulstraw>, or <@U047F4XQX|mcmahoniel> if you need to get in touch with an admin. :ghost:
 
       *Here\'s a quick channel breakdown:*
 
@@ -34,7 +32,6 @@ module SlackResponder
       *<#C04JD5BMV|resources>* - relevant links, videos, etc that could help the learning process :book:
       *<#C08LLBP6Z|jobs>* - find or post a job! :jobs:
       *<#C0479HZHW|hackathon>* - discuss a past, current, or upcoming hackathon :rocket:
-      *<#C0G5F220N|codingchallenges>* - participate in fun programming exercises :computer:
       *<#C0Q1DQ35H|hangouts>* - check out our weekly-ish gettogethers! :wave:
       *<#C06C0MSKV|gaming>* - fun chat about all platforms, all games :video_game:
       *<#C0F3KN55G|book-club>* - book discussion! :book:
