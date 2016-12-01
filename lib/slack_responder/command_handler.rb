@@ -11,7 +11,7 @@ module SlackResponder
       '*Welcome to slashrocket!* :slashrocket:
 
       *Please check out our <https://slashrocket.io/CodeOfConduct/|Code of Conduct>*, and feel free to send a message to
-      <@U0383B6CP|seanosaur>, <@U045FUW1G|paulstraw>, or <@U047F4XQX|mcmahoniel> if you need to get in touch with an admin. :ghost:
+      <@U0383B6CP|seanosaur>, <@U04UN1Z07|jonlim>, or <@U047F4XQX|mcmahoniel> if you need to get in touch with an admin. :ghost:
 
       *Here\'s a quick channel breakdown:*
 
@@ -36,7 +36,7 @@ module SlackResponder
       *<#C06C0MSKV|gaming>* - fun chat about all platforms, all games :video_game:
       *<#C0F3KN55G|book-club>* - book discussion! :book:
       *<#C0FJ45737|moody-foodies>* - food discussion! :taco:
-      *<#C2H7U45NE|suntory-time>* - adult beverage discussion :cocktail:
+      *<#C2H7U45NE|suntory-time>* - adult beverage discussion :whiskey:
       *<#C0BAD2TTM|music>* - talk music! :trumpet:
       *<#C0HJCN8HK|movies>* - Oscar gold! :man_in_business_suit_levitating:
       *<#C0HJG0AHF|television>* - talk about your favorite shows :tv:
