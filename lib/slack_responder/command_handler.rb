@@ -13,6 +13,8 @@ module SlackResponder
       *Please check out our <https://slashrocket.io/CodeOfConduct/|Code of Conduct>*, and feel free to send a message to
       <@U0383B6CP|seanosaur>, <@U04UN1Z07|jonlim>, or <@U047F4XQX|mcmahoniel> if you need to get in touch with an admin. :ghost:
 
+      You can also use `/report` to anonymously report a message to the team.
+
       *Here\'s a quick channel breakdown:*
 
       *<#C0383B6DR|announcements>* - check here for annoucements from the :slashrocket: team!
