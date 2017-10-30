@@ -29,12 +29,9 @@ module SlackResponder
       *<#C0AKU2JUS|design>* - the finer things in dev :wine_glass:
       *<#C18QPALU8|ladies>* - for women and friends of women :woman-woman-girl:
       *<#C0NSMTSQ3|security>* - Hack the Planet! :computer:
-      *<#C26L5QL7N|mathletes>* - machine learning, big data, and more :chart_with_upwards_trend:
       *<#C0WDKCY95|iot>* - let\'s talk hardware! :microscope:
       *<#C04JD5BMV|resources>* - relevant links, videos, etc that could help the learning process :book:
       *<#C08LLBP6Z|jobs>* - find or post a job! :jobs:
-      *<#C0479HZHW|hackathon>* - discuss a past, current, or upcoming hackathon :rocket:
-      *<#C0Q1DQ35H|hangouts>* - check out our weekly-ish gettogethers! :wave:
       *<#C06C0MSKV|gaming>* - fun chat about all platforms, all games :video_game:
       *<#C0F3KN55G|book-club>* - book discussion! :book:
       *<#C0FJ45737|moody-foodies>* - food discussion! :taco:
@@ -47,7 +44,9 @@ module SlackResponder
       *<#C13FLLEUX|swole>* - too fit to quit :muscle:
       *<#C0A4A8T6C|portlandia>* - put a bird on it! :bird:
       *<#C0E8JAU0L|bae-area>* - talk SV! :computer:
-      *<#C0FTSKV9V|soflo>* - fun in the sun! :sunny:'
+      *#conferences* - gave a talk, giving a talk, advice? :hear_no_evil:
+      *#travel* - go forth and do great things :airplane: :palm_tree:
+      *#news* - all the news that\'s fit to print :newspaper:'
     end
   end
 end
