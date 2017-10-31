@@ -44,9 +44,9 @@ module SlackResponder
       *<#C13FLLEUX|swole>* - too fit to quit :muscle:
       *<#C0A4A8T6C|portlandia>* - put a bird on it! :bird:
       *<#C0E8JAU0L|bae-area>* - talk SV! :computer:
-      *#conferences* - gave a talk, giving a talk, advice? :hear_no_evil:
-      *#travel* - go forth and do great things :airplane: :palm_tree:
-      *#news* - all the news that\'s fit to print :newspaper:'
+      *<#C4LTSATK7|conferences>* - gave a talk, giving a talk, advice? :hear_no_evil:
+      *<#C7C1KAJAX|travel>* - go forth and do great things :airplane: :palm_tree:
+      *<#C6NBDCN56|news>* - all the news that\'s fit to print :newspaper:'
     end
   end
 end
